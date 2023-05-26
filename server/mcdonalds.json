@@ -1,0 +1,50 @@
+[
+  {
+    "id": "el1",
+    "name": "ДАБЛ ЧІЗБУРГЕР",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/y2x6r9iznoerpzdlilpi",
+    "price": 97
+  },
+  {
+    "id": "el2",
+    "name": "БІГ ТЕЙСТІ",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/tc8ma7wvwjskoxdgvc3x",
+    "price": 190
+  },
+  {
+    "id": "el3",
+    "name": "ЧІКЕН МАКНАГЕТС 9ШТ",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/srzbzyjoaisu7rkr5lot",
+    "price": 121
+  },
+  {
+    "id": "el4",
+    "name": "БІГ МАК",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/ireex7or3rdk8uj2zuaw",
+    "price": 115
+  },
+  {
+    "id": "el5",
+    "name": "ЧІКЕН РОЛ",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/xdgzrlfm7wh7hknurs5s",
+    "price": 114
+  },
+  {
+    "id": "el6",
+    "name": "ДАБЛ РОЯЛ ЧІЗБУРГЕР МЕНЮ",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/hwh9iruuw9ua5cl1qsrb",
+    "price": 258
+  },
+  {
+    "id": "el7",
+    "name": "БІГ ТЕЙСТІ МЕНЮ",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/asoxjixasce3qwglavvt",
+    "price": 251
+  },
+  {
+    "id": "el8",
+    "name": "БІГ МАК МЕНЮ",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/i6xa7qxlssivj0rgmqcs ",
+    "price": 189
+  }
+]

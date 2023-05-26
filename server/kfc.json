@@ -1,0 +1,50 @@
+[
+  {
+    "id": "k1",
+    "name": "Боксмайстер фреш HS",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/dfsazkm7fs3qr4nwhzb0",
+    "price": 160
+  },
+  {
+    "id": "k2",
+    "name": "Дабл чікен",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/xnb457pi3d1as1keychn",
+    "price": 138
+  },
+  {
+    "id": "k3",
+    "name": "Сендвіч Твістер гострий",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/bbqkcky7sbp3ic2oxxre",
+    "price": 116
+  },
+  {
+    "id": "k4",
+    "name": "Чізбургер Делюкс",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/uemjrwy6i9wpsjqywfqd",
+    "price": 116
+  },
+  {
+    "id": "k5",
+    "name": "Класік",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/zc3hjnzpa8cl3oat7m9q",
+    "price": 99
+  },
+  {
+    "id": "k6",
+    "name": "Чізбургер",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/fohplagg9mfd8h7ucig5",
+    "price": 77
+  },
+  {
+    "id": "k7",
+    "name": "Чізбургер Джуніор",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/letws6ntjgvphaqjuqu6",
+    "price": 61
+  },
+  {
+    "id": "k8",
+    "name": "Тост Український",
+    "img": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/iydtllmjf2aav56wkpvv",
+    "price": 50
+  }
+]
