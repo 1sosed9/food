@@ -1,6 +1,0 @@
-#container {
-    display: flex;
-    column-gap: var(--spacing-small);
-    width: 100%;
-    padding: var(--spacing-small);
-}
