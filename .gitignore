@@ -15,7 +15,6 @@ report.xml
 .sass-cache/
 .c9revisions/
 node_modules/
-public/
 dist/
 build/
 logs/

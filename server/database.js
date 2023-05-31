@@ -5,7 +5,7 @@ const dbConfig = Config.readConfig().database;
 const db = mysql.createConnection(dbConfig);
 
 function connect(onSuccess) {
-  db.connect(function(err) {
+  db.connect(function (err) {
     if (err) throw err;
     console.log("MySQL connected successfully.");
     onSuccess();
@@ -36,7 +36,7 @@ function insertIntoTable(table, ojb) {
   const tableName = dbConfig.database + '.' + table;
 
   const columns = mapObjectKeysToSQLColumns(Object.keys(ojb)).join(', ');
-  const values  = mapObjectValuesToSQLValues(Object.values(ojb)).join(', ');
+  const values = mapObjectValuesToSQLValues(Object.values(ojb)).join(', ');
 
   return runSQLQuery('INSERT INTO ' + tableName + '(' + columns + ') VALUES (' + values + ');');
 }
@@ -47,14 +47,13 @@ function selectFromTable(table, condition, callback) {
 
   if (condition && typeof condition === 'object' && Object.keys(condition).length) {
     const columns = mapObjectKeysToSQLColumns(Object.keys(condition));
-    const values  = mapObjectValuesToSQLValues(Object.values(condition));
+    const values = mapObjectValuesToSQLValues(Object.values(condition));
 
     sql += ' ' + columns.map((k, idx) => ('WHERE ' + k + ' = ' + values[idx])).join(' AND ');
   }
 
   return runSQLQuery(sql + ';')
-    .then((res) => callback(null, res))
-    .catch((err) => callback(err));
+
 }
 
 module.exports = { connect, insertIntoTable, selectFromTable }
